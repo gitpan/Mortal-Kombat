@@ -7,7 +7,7 @@ require Exporter;
 
 @ISA = qw( Exporter );
 @EXPORT = qw( fatality );
-$VERSION = '0.02';
+$VERSION = '1.00';
 
 
 sub fatality (@) { die @_ }
